@@ -1,0 +1,25 @@
+
+2. Ordenação (ORDER BY)
+2.1 - Mostrar os 10 clientes com maior gasto total (coluna Total de Invoice):
+
+2.2  Listar faixas com preço e ordenar alfabeticamente pelo nome:
+
+
+3.0 -  Agregações + GROUP BY
+
+3.1 - Preço mínimo, máximo e médio das faixas:
+3.2 - Soma de vendas por país (Invoice), usando GROUP BY:
+3.3 - Número de clientes por país:
+
+
+4 - Mini-desafios para você resolver sozinho
+Tente escrever as consultas sem olhar as anteriores:
+
+Trazer todas as faixas do gênero “Rock” (veja tabelas Genre e Track, vai precisar de JOIN se quiser se desafiar).
+
+Descobrir qual país mais gastou em compras.
+
+Listar, para cada país, a quantidade de faturas (Invoice) e o valor médio de Total.
+
+Listar os 5 artistas com mais faixas cadastradas.
+
