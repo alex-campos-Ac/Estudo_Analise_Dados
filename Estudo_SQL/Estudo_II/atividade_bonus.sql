@@ -1,4 +1,4 @@
-
+---- Listar os 5 artistas com mais faixas cadastradas.
 SELECT 
     artists.Name AS Artista, 
     COUNT(tracks.TrackId) AS Total_Musicas
