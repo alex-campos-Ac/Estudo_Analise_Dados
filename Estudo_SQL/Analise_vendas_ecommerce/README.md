@@ -31,6 +31,3 @@ Este projeto simula uma rotina de **analista de dados** em uma empresa de e-comm
 - Ordenação com `ORDER BY` (ASC/DESC).
 - Cálculo de `MIN`, `MAX`, `AVG`, `SUM`, `COUNT`.
 - Análise de **vendas por produto** com `GROUP BY` e `ROUND`.
-- **Vendas por produto e ano** usando JOINs entre 3 tabelas.
-
-### Principais insights gerados

@@ -1,22 +1,30 @@
-# 📝 Descrição do Projeto
+# 🎵 Análise SQL – Loja de Música (Chinook)
 
-## 🎵 Análise de Vendas – Loja de Música (Chinook)
-
-Este projeto simula a rotina de um analista de dados em uma loja de música digital. A partir do banco de dados Chinook, que contém informações de artistas, álbuns, faixas, clientes e faturas, foi realizada uma análise exploratória focada em vendas e comportamento dos clientes.
+Projeto de prática em **SQL** usando o banco Chinook (loja de música digital) com dados de artistas, álbuns, faixas, clientes e faturas.
 
 ---
 
 ## 🎯 Objetivo
 
-- Entender o desempenho das vendas por país e por cliente.
-- Identificar artistas, álbuns e gêneros com maior volume de faixas e vendas.
-- Praticar escrita de queries SQL usando filtros, agregações e junções.
+- Exercitar escrita de queries SQL em um cenário realista.  
+- Explorar catálogo musical e vendas por país/cliente.  
+- Criar material de portfólio para área de dados.
 
 ---
 
-## 🔍 Perguntas respondidas com SQL
+## 🧩 Conceitos de SQL praticados
 
-- Quais são os **artistas com maior número de álbuns** cadastrados?
-- Quais faixas pertencem ao gênero **“Rock”**?
-- Para cada **país**, qual a quantidade de faturas e o **valor médio** das compras?
-- Como e
+- Filtros: `WHERE`, `BETWEEN`, `IN`, `LIKE`, `NOT`.  
+- Ordenação e limite: `ORDER BY`, `LIMIT`.  
+- Agregações: `MIN`, `MAX`, `AVG`, `SUM`, `COUNT` com `GROUP BY`.  
+- Junções: `JOIN` entre `Artist`, `Album`, `Track`, `Genre`, `Invoice`, `Customer`.
+
+---
+
+## ❓ Exemplos de perguntas respondidas
+
+- Top 5 **artistas com mais álbuns**.  
+- Faixas do gênero **“Rock”**.  
+- Quantidade de **faturas e valor médio** por país.
+
+---
