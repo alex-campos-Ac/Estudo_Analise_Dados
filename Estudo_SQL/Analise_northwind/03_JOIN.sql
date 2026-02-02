@@ -37,8 +37,3 @@ JOIN Employees
     ON Orders.EmployeeID = Employees.EmployeeID
 
 ORDER BY pedidos ASC;
-
-
-
-
-    .table
