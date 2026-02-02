@@ -1,0 +1,39 @@
+O banco contém diversas tabelas que imitam o funcionamento de um mini ERP:
+🧾 Pedidos (Orders)
+Representam cada venda realizada.
+Incluem: data do pedido, cliente, funcionário responsável, transportadora etc.
+🛒 Itens do pedido (OrderDetails)
+São os produtos comprados em cada pedido e suas quantidades.
+👥 Clientes (Customers)
+Contêm informações dos clientes que compram os produtos.
+🧍 Funcionários (Employees)
+Representam os colaboradores que processam as vendas.
+🚚 Transportadoras (Shippers)
+Empresas responsáveis pelas entregas.
+🏭 Fornecedores (Suppliers)
+Empresas que vendem os produtos para a Northwind.
+📦 Produtos (Products)
+Itens disponíveis para venda.
+🗂 Categorias (Categories)
+Categorias às quais os produtos pertencem (ex.: bebidas, carnes, doces).
+----------------------------------------------------------------------------------
+1) Listar clientes
+Liste CustomerName, City e Country da tabela Customers.
+2) Filtrar produtos
+Produtos com preço acima de 20.
+3) Ordenar
+Listar os 10 produtos mais caros.
+4) Valores únicos
+Mostrar países distintos na tabela Customers.
+5) LIKE
+Listar produtos cujo nome contenha “Chocolate”.
+6) Contagem por categoria
+Quantos produtos existem por categoria?
+7) JOIN (Produtos + Categorias)
+Mostrar ProductName + CategoryName.
+8) JOIN múltiplo
+Listar pedidos com nome do cliente e nome do funcionário responsável.
+9) Total por cliente
+Somar o valor dos pedidos por cliente, retornando os 10 maiores consumidores.
+🔟 Produto mais vendido
+Obter o produto com maior quantidade total vendida.
